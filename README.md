@@ -1,8 +1,9 @@
 # Description
 
 - This is an AWS CDK project written in TypeScript which aims to host a static website on AWS S3.
+- In this project, i host a simple single-page and responsive website written with HTML/CSS/JS and [Bootstrap5](https://getbootstrap.com/).
 
-> 💡 **What is Static Website?**
+> 💡 **Quick Reminder: What is Static Website?**
 >
 > - A static website is the website that has its source code prebuilt and returned by server without any database interaction.
 > - Static websites don't use server-side scripting languages such as PHP, Python, Nodejs, etc.
