@@ -1,6 +1,8 @@
 import * as cdk from "aws-cdk-lib";
 import * as s3 from "aws-cdk-lib/aws-s3";
 import * as s3deploy from "aws-cdk-lib/aws-s3-deployment";
+import * as path from "path";
+
 import { Construct } from "constructs";
 // import * as sqs from 'aws-cdk-lib/aws-sqs';
 
@@ -23,7 +25,9 @@ export class AwsCdkStaticwebStack extends cdk.Stack {
       this,
       "DeployStaticWebsite",
       {
-        sources: [s3deploy.Source.asset("../src/staticweb")],
+        sources: [
+          s3deploy.Source.asset(path.join(__dirname, "..", "src", "staticweb")),
+        ],
         destinationBucket: bucket,
       }
     );
