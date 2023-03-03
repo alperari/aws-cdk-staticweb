@@ -31,5 +31,8 @@ export class AwsCdkStaticwebStack extends cdk.Stack {
         destinationBucket: bucket,
       }
     );
+
+    // It is also possible to have a custom domain
+    // But i will keep using the original s3 endpoint
   }
 }
