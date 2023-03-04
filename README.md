@@ -20,4 +20,8 @@ There is just one stack which does the followings:
 
 Once `cdk bootstrap` and `cdk deploy` are successful, we will have the static content hosted on AWS S3 with `index.html`'s Object URL as our domain.
 
+> **See the stack** > ![1](https://user-images.githubusercontent.com/68128434/222879174-187d9f27-72e4-4285-aa43-f8165e6c17a1.JPG)
+
+> **See the hosted bucket** > ![2](https://user-images.githubusercontent.com/68128434/222879176-622cf84c-9c88-42b2-9722-e5719662bbea.JPG)
+
 ### This project's URL: https://awscdkstaticwebstack-staticwebsitebucket7ef1e06c-qkwjo1gwr3yf.s3.eu-central-1.amazonaws.com/index.html
